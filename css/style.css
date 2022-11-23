@@ -18,12 +18,18 @@ a :hover {
 /* navbar */
 .nav{
   display: flex;
-  padding-left: 5%;
-  padding-top: 20px;
-  padding-bottom: 30px;
+  padding: 20px 5% 30px 5%;
   order: 1;
   background-image: url(../images/home_page/home_page_bg.png);
   background-position: 50% 0px;
+}
+
+#logo {
+  display: none;
+}
+
+.menu {
+  display: none;
 }
 
 /* homepage */
@@ -186,9 +192,13 @@ a :hover {
 
 .featured_content {
   display: flex;
-  padding-left: 3%;
-  padding-right: 3%;
-  padding-bottom: 25px;
+  flex-direction: column;
+  padding: 50px 3% 50px 3%;
+  gap: 25px;
+}
+
+.feature {
+  display: flex;
   gap: 15px;
 }
 
@@ -224,5 +234,83 @@ a :hover {
 
 /* ############################################ */
 @media only screen and (min-width: 768px) {
+
+  /* navbar */
+  .nav {
+    justify-content: space-between;
+    padding: 10px 5% 10px 5%;
+  }
+  .menu_icon {
+    display: none;
+  }
+
+  #logo {
+    display: block;
+  }
+
+  .menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .menu li a {
+    color: #272a31;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  /* homepage */
+  .home_page {
+    padding: 100px 3% 100px 3%;
+    background-position: 50% -150px;
+  }
+
+  .home_page h1 {
+    font-size: 55px;
+    font-weight: 1000;
+  }
+
+  #event_info {
+    width: fit-content;
+  }
+
+  /* aboutpage */
+  .program {
+    padding: 0px 5% 0px 5%;
+  }
+
+  .program_content {
+    flex-direction: row;
+    gap: 5px;
+  }
+
+  .content {
+    flex-direction: column;
+    width: 25%;
+  }
+
+  .content .col_1 {
+    width: fit-content;
+    text-align: center;
+  }
+
+  .content .col_2 {
+    width: fit-content;
+  }
+
+  .content .col_3 {
+    width: fit-content;
+  }
+
+  .featured_content {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .feature {
+    width: 45%;
+  }
 
 }
