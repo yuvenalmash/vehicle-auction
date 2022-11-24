@@ -36,7 +36,7 @@ function listVehicles() {
     engine: '5.2L V10',
     horsepower: '562',
     transmission: 'manual',
-    image: 'images/about_page/featured/audiR8_featured.png',
+    image: 'images/featured/audiR8.png',
     dealer: 'Extreme auto dealers',
     country: 'Kenya',
   };
@@ -47,7 +47,7 @@ function listVehicles() {
     engine: '5.0L V8',
     horsepower: '710',
     transmission: 'manual',
-    image: 'images/about_page/featured/ford-mustang-roush.png',
+    image: 'images/featured/ford-mustang-roush.png',
     dealer: 'Cranes auto',
     country: 'Uganda',
   };
@@ -58,7 +58,7 @@ function listVehicles() {
     engine: '6.75L V12',
     horsepower: '453',
     transmission: 'automatic',
-    image: 'images/about_page/featured/rolls-royce-phanton.png',
+    image: 'images/featured/rolls-royce-phanton.png',
     dealer: 'Kigali auto dealers',
     country: 'Rwanda',
   };
@@ -69,11 +69,33 @@ function listVehicles() {
     engine: '4.0L V8',
     horsepower: '542',
     transmission: 'manual',
-    image: 'images/about_page/featured/bentley_continental.png',
+    image: 'images/featured/bentley_continental.png',
     dealer: 'Habesha Automotives',
     country: 'Ethiopia',
   };
-  return [vehicle1, vehicle2, vehicle3, vehicle4];
+  const vehicle5 = {
+    id: 5,
+    name: 'Kawasaki KZ 250',
+    year: 1980,
+    engine: '0.246L V1',
+    horsepower: '17',
+    transmission: 'manual',
+    image: 'images/featured/kawasaki.png',
+    dealer: 'Dar Automotives',
+    country: 'Tanzania',
+  };
+  const vehicle6 = {
+    id: 6,
+    name: 'Ferrari Enzo',
+    year: 2003,
+    engine: '6.0L V12',
+    horsepower: '660',
+    transmission: 'Semi-automatic',
+    image: 'images/featured/ferrari-enzo.png',
+    dealer: 'Mara Auto',
+    country: 'Kenya',
+  };
+  return [vehicle1, vehicle2, vehicle3, vehicle4, vehicle5, vehicle6];
 }
 
 function loadFeature() {
