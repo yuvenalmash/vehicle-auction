@@ -63,7 +63,7 @@ a:hover {
   width: 100%;
   height: 70vh;
   top: 0%;
-  background: url(../images/about_page/pattern_bg.png) rgba(39,42,49, 0.94);
+  background: url(../images/program/pattern_bg.png) rgba(39,42,49, 0.94);
   padding: 0% 20% 0% 20%;
 }
 
@@ -181,7 +181,7 @@ a:hover {
   align-items: center;
   padding-left: 3%;
   padding-right: 3%;
-  background: url(../images/about_page/pattern_bg.png) #272a31;
+  background: url(../images/program/pattern_bg.png) #272a31;
 }
 
 #program_header {
@@ -309,6 +309,51 @@ a:hover {
   position: absolute;
   top: 0%;
   right: 0%;
+}
+
+/* Partners */
+.partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #272a31;
+  padding: 20px 3% 20px 3%;
+}
+
+.partners_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partners h2 {
+  color: #d3d3d3;
+}
+
+.partners hr {
+  color: #ec5242;
+  width: 10%;
+}
+
+.partners ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  padding: 30px 3% 30px 3%;
+  gap: 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 3% 40px 3%;
+  gap: 30px;
+  align-items: center;
+}
+
+footer img {
+  width: fit-content;
 }
 
 /* ############################################ */
@@ -447,5 +492,16 @@ a:hover {
 
   #feature_popup > .feature a:hover {
     background-color: #ec5242;
+  }
+  
+  /* Partners */
+  .partners ul {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  footer {
+    flex-direction: row;
+    padding: 40px 10%;
   }
 }
