@@ -15,20 +15,8 @@ a:hover {
   background-color: #ec5242;
 }
 
-.above_nav {
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 15%;
-  padding: 3px 15% 3px 0px;
-  color: #fff;
-  background-color: #272a31;
-  list-style: none;
-  gap: 20px;
-}
-
-.above_nav a {
-  text-decoration: none;
-  color: #d3d3d3;
+#above_nav {
+  display: none;
 }
 
 /* navbar */
@@ -72,8 +60,11 @@ a:hover {
 #popup_menu {
   display: none;
   position: absolute;
+  width: 100%;
+  height: 60vh;
+  top: 3%;
   background: url(../images/about_page/pattern_bg.png) #272a31;
-  padding: 0% 3% 0% 3%;
+  padding: 0% 20% 0% 20%;
 }
 
 #popup_menu ul {
@@ -93,7 +84,7 @@ a:hover {
 #popup_menu li a {
   text-decoration: none;
   color: #d3d3d3;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .featured_content hr {
@@ -122,8 +113,8 @@ a:hover {
 }
 
 #popup_menu img {
-  margin-top: 12px;
-  margin-left: 75%;
+  margin-top: 15px;
+  margin-left: 50%;
   position: absolute;
 }
 
@@ -323,6 +314,27 @@ a:hover {
 
 /* ############################################ */
 @media only screen and (min-width: 768px) {
+  #above_nav {
+    display: block;
+  }
+
+  #above_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 15%;
+    padding: 3px 15% 3px 0px;
+    color: #fff;
+    background-color: #272a31;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  #above_nav a {
+    text-decoration: none;
+    color: #d3d3d3;
+  }
+
   /* navbar */
   .nav {
     justify-content: space-between;
