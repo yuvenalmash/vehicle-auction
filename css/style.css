@@ -350,6 +350,16 @@ a:hover {
     font-weight: 600;
   }
 
+  #nav_btn1 {
+    color: #ec5242;
+  }
+
+  #nav_btn2 {
+    color: #ec5242;
+    border: 4px solid #ec5242;
+    padding: 5px;
+  }
+
   /* homepage */
   .home_page {
     padding: 100px 3% 100px 3%;
