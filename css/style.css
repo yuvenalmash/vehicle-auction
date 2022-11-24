@@ -193,7 +193,7 @@ a:hover {
   align-items: center;
 }
 
-#program_header h1 {
+#program_header h2 {
   color: #fff;
 }
 
@@ -240,7 +240,7 @@ a:hover {
   background-color: #fff;
 }
 
-#featured_header h1 {
+#featured_header h2 {
   color: #272a31;
 }
 
