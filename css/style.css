@@ -32,6 +32,41 @@ a :hover {
   display: none;
 }
 
+#popup_menu {
+  display: none;
+  position: absolute;
+  background: url(../images/about_page/pattern_bg.png) #272a31;
+  padding: 0% 3% 0% 3%;
+}
+
+#popup_menu ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: 30vw;
+  height: 30vh;
+  list-style: none;
+}
+
+#popup_menu li a{
+  text-decoration: none;
+  color: #d3d3d3;
+  font-size: 25px;
+}
+
+#popup_menu ul hr{
+  color: #ec5242;
+  width: 20%;
+}
+
+#popup_menu img {
+  margin-top: 12px;
+  margin-left: 75%;
+  position: absolute;
+}
+
+
 /* homepage */
 .home_page{
   display: flex;

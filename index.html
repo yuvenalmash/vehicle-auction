@@ -9,16 +9,32 @@
   <title>Auto Auction</title>
 </head>
 
-<body>
+<body onload="load_feature()">
   <div class="main-contaner">
     <nav class="nav">
-      <a class="menu_icon" id="menu_icon" href="#"><img src="images/nav/humbuger_icon.png" alt="menu"></a>
+      <a class="menu_icon" id="menu_icon" onclick="show_menu()" href="#"><img src="images/nav/humbuger_icon.png"
+          alt="menu"></a>
       <a id="logo" href="#home_page"><img src="images/nav/logo.png" alt="Mega Auto Auction 2022"></a>
       <ul class="menu">
         <li><a href="#home_page">Home</a></li>
         <li><a href="#about_page">About</a></li>
       </ul>
     </nav>
+
+    <popup-menu id="popup_menu">
+      <a onclick="close_menu()" href="#"><img src="images/popup/close.png" alt="close"></a>
+      <ul>
+        <li>
+          <a onclick="close_menu()" href="#home_page">Home</a>
+          <hr>
+        </li>
+        <li>
+          <a onclick="close_menu()" href="#about_page">About</a>
+          <hr>
+        </li>
+      </ul>
+    </popup-menu>
+
     <section class="home_page" id="home_page">
       <h3>"HELLO! AUTO WORLD"</h3>
       <h1>MEGA AUTOMOBILE<br>AUCTION 2022</h1>
@@ -76,60 +92,7 @@
           <h1>Featured Vehicles</h1>
           <hr>
         </header>
-        <sub-section class="featured_content">
-          <feature class="feature" id="feature1">
-            <img src="images/about_page/featured/audiR8_featured.png" alt="featured_image">
-            <info class="feature_info">
-              <h2 class="feature_title">AudiR8</h2>
-              <p class="feature_subtitle">from extreme auto dealership</p>
-              <hr>
-              <ul class="feature_specs">
-                <li>year: </li>
-                <li>Engine: </li>
-                <li>hp: </li>
-              </ul>
-            </info>
-          </feature>
-          <feature class="feature" id="feature2">
-            <img src="images/about_page/featured/audiR8_featured.png" alt="featured_image">
-            <info class="feature_info">
-              <h2 class="feature_title">AudiR8</h2>
-              <p class="feature_subtitle">from extreme auto dealership</p>
-              <hr>
-              <ul class="feature_specs">
-                <li>year: </li>
-                <li>Engine: </li>
-                <li>hp: </li>
-              </ul>
-            </info>
-          </feature>
-          <feature class="feature" id="feature3">
-            <img src="images/about_page/featured/audiR8_featured.png" alt="featured_image">
-            <info class="feature_info">
-              <h2 class="feature_title">AudiR8</h2>
-              <p class="feature_subtitle">from extreme auto dealership</p>
-              <hr>
-              <ul class="feature_specs">
-                <li>year: </li>
-                <li>Engine: </li>
-                <li>hp: </li>
-              </ul>
-            </info>
-          </feature>
-          <feature class="feature" id="feature4">
-            <img src="images/about_page/featured/audiR8_featured.png" alt="featured_image">
-            <info class="feature_info">
-              <h2 class="feature_title">AudiR8</h2>
-              <p class="feature_subtitle">from extreme auto dealership</p>
-              <hr>
-              <ul class="feature_specs">
-                <li>year: </li>
-                <li>Engine: </li>
-                <li>hp: </li>
-              </ul>
-            </info>
-          </feature>
-        </sub-section>
+        <sub-section class="featured_content" id="featured_content"></sub-section>
       </featured>
 
     </section>
