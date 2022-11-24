@@ -5,18 +5,18 @@
 }
 
 /* main container */
-.main_container{
+.main_container {
   display: flex;
   flex-direction: column;
   scroll-behavior: smooth;
 }
 
-a :hover {
+a:hover {
   background-color: #ec5242;
 }
 
 /* navbar */
-.nav{
+.nav {
   display: flex;
   padding: 20px 5% 30px 5%;
   order: 1;
@@ -39,7 +39,7 @@ a :hover {
   padding: 0% 3% 0% 3%;
 }
 
-#popup_menu ul{
+#popup_menu ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -49,13 +49,13 @@ a :hover {
   list-style: none;
 }
 
-#popup_menu li a{
+#popup_menu li a {
   text-decoration: none;
   color: #d3d3d3;
   font-size: 25px;
 }
 
-#popup_menu ul hr{
+#popup_menu ul hr {
   color: #ec5242;
   width: 20%;
 }
@@ -68,7 +68,7 @@ a :hover {
 
 
 /* homepage */
-.home_page{
+.home_page {
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -115,10 +115,11 @@ a :hover {
   font-size: 20px;
   font-weight: 500;
   text-decoration: none;
+  width: fit-content;
 }
 
 /* aboutpage */
-.about_page{
+.about_page {
   display: flex;
   flex-direction: column;
   order: 3;
@@ -192,12 +193,16 @@ a :hover {
 }
 
 .program a {
-  padding: 20px 30px 20px 30px; 
+  padding: 20px 30px 20px 30px;
   margin: 50px 0px 50px 0px;
   width: fit-content;
   background-color: #ec5242;
   color: #fff;
   text-decoration: none;
+}
+
+.program a:hover {
+  background-color: #eb2a15;
 }
 
 .featured {
@@ -237,7 +242,11 @@ a :hover {
   gap: 15px;
 }
 
-.feature_info{
+.feature:hover {
+  transform: scale(1.1);
+}
+
+.feature_info {
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -255,6 +264,7 @@ a :hover {
   color: #bfbfbf;
   width: 10%;
 }
+
 .feature_specs {
   display: flex;
   flex-direction: column;
@@ -275,6 +285,7 @@ a :hover {
     justify-content: space-between;
     padding: 10px 5% 10px 5%;
   }
+
   .menu_icon {
     display: none;
   }
