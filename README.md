@@ -102,8 +102,6 @@ Clone this repository to your desired folder:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 Yuvenal Njoroge
 
 - GitHub: [@githubhandle](https://github.com/yuvenalmash)
@@ -126,7 +124,7 @@ Clone this repository to your desired folder:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/yuvenalmash/vehicle-auction/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -134,7 +132,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Cindy Shin for the design
+I would like to thank [Cindy Shin](https://www.behance.net/adagio07) for the design idea
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -142,6 +140,6 @@ I would like to thank Cindy Shin for the design
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
