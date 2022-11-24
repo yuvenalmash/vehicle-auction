@@ -104,7 +104,7 @@ Clone this repository to your desired folder:
 
 > Mention all of the collaborators of this project.
 
-👤 Yuvena Njoroge
+👤 Yuvenal Njoroge
 
 - GitHub: [@githubhandle](https://github.com/yuvenalmash)
 - Twitter: [@twitterhandle](https://twitter.com/_Juvenal_)
@@ -134,7 +134,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for the inspiration
+I would like to thank Cindy Shin for the design
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
