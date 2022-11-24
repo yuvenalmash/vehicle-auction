@@ -209,11 +209,13 @@ a:hover {
   align-items: center;
   padding: 5px;
   gap: 10px;
-
-  /* background-color: #d3d3d3; */
   color: #d3d3d3;
   font-weight: 600;
   background: rgba(156, 156, 156, 0.1);
+}
+
+.content:hover {
+  border: 2px solid #d3d3d3;
 }
 
 .content .col_1 {
