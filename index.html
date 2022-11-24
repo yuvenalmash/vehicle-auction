@@ -11,29 +11,32 @@
 
 <body>
   <div class="main-contaner">
-    <nav class="nav">
-      <a class="menu_icon" id="menu_icon" onclick="showMenu()" href="#"><img src="images/nav/humbuger_icon.png"
-          alt="menu"></a>
-      <a id="logo" href="#home_page"><img src="images/nav/logo.png" alt="Mega Auto Auction 2022"></a>
-      <ul class="menu">
-        <li><a href="#home_page">Home</a></li>
-        <li><a href="#about_page">About</a></li>
-      </ul>
-    </nav>
+    <header>
 
-    <popup-menu id="popup_menu">
-      <a onclick="closeMenu()" href="#"><img src="images/popup/close.png" alt="close"></a>
-      <ul>
-        <li>
-          <a onclick="closeMenu()" href="#home_page">Home</a>
-          <hr>
-        </li>
-        <li>
-          <a onclick="closeMenu()" href="#about_page">About</a>
-          <hr>
-        </li>
-      </ul>
-    </popup-menu>
+      <nav class="nav">
+        <a class="menu_icon" id="menu_icon" onclick="showMenu()" href="#"><img src="images/nav/humbuger_icon.png"
+            alt="menu"></a>
+        <a id="logo" href="#home_page"><img src="images/nav/logo.png" alt="Mega Auto Auction 2022"></a>
+        <ul class="menu">
+          <li><a href="#home_page">Home</a></li>
+          <li><a href="#about_page">About</a></li>
+        </ul>
+      </nav>
+
+      <popup-menu id="popup_menu">
+        <a onclick="closeMenu()" href="#"><img src="images/popup/close.png" alt="close"></a>
+        <ul>
+          <li>
+            <a onclick="closeMenu()" href="#home_page">Home</a>
+            <hr>
+          </li>
+          <li>
+            <a onclick="closeMenu()" href="#about_page">About</a>
+            <hr>
+          </li>
+        </ul>
+      </popup-menu>
+    </header>
 
     <section class="home_page" id="home_page">
       <h3>"HELLO! AUTO WORLD"</h3>
