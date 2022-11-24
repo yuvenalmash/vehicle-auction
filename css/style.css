@@ -275,6 +275,34 @@ a:hover {
   list-style: none;
 }
 
+.feature a {
+  width: fit-content;
+  padding: 5px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ec5242;
+}
+
+.feature a:hover {
+  background-color: #eb2a15;
+}
+
+#feature_popup {
+  display: none;
+  position: absolute;
+  right: 30%;
+  padding: 70px 4.26% 70px 4.26%;
+  backdrop-filter: blur(10px);
+}
+
+#close_feature_popup {
+  margin-top: 12px;
+  margin-left: 75%;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+
 /* ############################################ */
 
 /* ############################################ */
@@ -357,6 +385,30 @@ a:hover {
 
   .feature {
     width: 45%;
+  }
+
+  #feature_popup {
+    border: 1px solid #d3d3d3;
+  }
+
+  #feature_popup > .feature {
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  #feature_popup > .feature img{
+    width: 50%;
+  }
+
+  #feature_popup > .feature > .feature_info{
+    width: 50%;
+    font-weight: 600;
+  }
+
+  #feature_popup > .feature a:hover {
+    background-color: #ec5242;
   }
 
 }
