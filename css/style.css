@@ -70,8 +70,9 @@ a:hover {
 
 .partners ul {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   list-style: none;
   padding: 30px 3% 30px 3%;
   gap: 20px;
