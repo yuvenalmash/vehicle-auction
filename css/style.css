@@ -16,7 +16,7 @@ a:hover {
   border-radius: 5px;
 }
 
-#above_nav {
+.above_nav {
   display: none;
 }
 
@@ -64,8 +64,17 @@ a:hover {
   width: 100%;
   height: 70vh;
   top: 0%;
-  background: url(../images/program/pattern_bg.png) rgba(39,42,49, 0.94);
+  background: url(../images/program/pattern_bg.png) rgba(39, 42, 49, 0.94);
   padding: 0% 20% 0% 20%;
+}
+
+.partners ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  padding: 30px 3% 30px 3%;
+  gap: 20px;
 }
 
 #popup_menu ul {
@@ -92,6 +101,11 @@ a:hover {
   width: 10%;
 }
 
+.partners hr {
+  color: #ec5242;
+  width: 10%;
+}
+
 #featured_header hr {
   color: #ec5242;
   width: 10%;
@@ -105,6 +119,10 @@ a:hover {
 #popup_menu ul hr {
   color: #ec5242;
   width: 10%;
+}
+
+footer img {
+  width: fit-content;
 }
 
 .content .col_2 img {
@@ -192,6 +210,10 @@ a:hover {
   padding-top: 40px;
   padding-bottom: 40px;
   align-items: center;
+}
+
+.partners h2 {
+  color: #d3d3d3;
 }
 
 #program_header h2 {
@@ -327,24 +349,6 @@ a:hover {
   align-items: center;
 }
 
-.partners h2 {
-  color: #d3d3d3;
-}
-
-.partners hr {
-  color: #ec5242;
-  width: 10%;
-}
-
-.partners ul {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  list-style: none;
-  padding: 30px 3% 30px 3%;
-  gap: 20px;
-}
-
 footer {
   display: flex;
   flex-direction: column;
@@ -353,15 +357,11 @@ footer {
   align-items: center;
 }
 
-footer img {
-  width: fit-content;
-}
-
 /* ############################################ */
 
 /* ############################################ */
 @media only screen and (min-width: 768px) {
-  #above_nav {
+  .above_nav {
     display: block;
   }
 
@@ -369,14 +369,19 @@ footer img {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    padding-right: 15%;
-    padding: 3px 15% 3px 0px;
+    padding: 3px 15% 3px 0;
     color: #fff;
     background-color: #272a31;
     list-style: none;
     gap: 20px;
   }
-  
+
+  .menu li a {
+    color: #272a31;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
   #above_nav a {
     text-decoration: none;
     color: #d3d3d3;
@@ -401,12 +406,6 @@ footer img {
     list-style: none;
     gap: 30px;
     align-items: center;
-  }
-
-  .menu li a {
-    color: #272a31;
-    text-decoration: none;
-    font-weight: 600;
   }
 
   #nav_btn1 {
@@ -498,7 +497,7 @@ footer img {
   #feature_popup > .feature a:hover {
     background-color: #ec5242;
   }
-  
+
   /* Partners */
   .partners ul {
     flex-direction: row;
