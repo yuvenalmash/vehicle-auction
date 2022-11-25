@@ -13,6 +13,7 @@
 
 a:hover {
   background-color: #ec5242;
+  border-radius: 5px;
 }
 
 #above_nav {
@@ -300,6 +301,10 @@ footer img {
     color: #ec5242;
     border: 4px solid #ec5242;
     padding: 5px;
+  }
+
+  .nav_btn:hover {
+    background-color: #272a31;
   }
 
   /* headline */

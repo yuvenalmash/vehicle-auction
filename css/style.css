@@ -13,6 +13,7 @@
 
 a:hover {
   background-color: #ec5242;
+  border-radius: 5px;
 }
 
 #above_nav {
@@ -418,10 +419,14 @@ footer img {
     padding: 5px;
   }
 
+  .nav_btn:hover {
+    background-color: #272a31;
+  }
+
   /* homepage */
   .home_page {
     padding: 100px 3% 100px 3%;
-    background-position: 50% -150px;
+    background-position: 20%;
   }
 
   .home_page h1 {
