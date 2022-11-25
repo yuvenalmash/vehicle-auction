@@ -220,14 +220,15 @@ footer img {
   flex-direction: column;
   align-items: center;
   background-color: #272a31;
-  padding: 20px 3% 20px 3%;
+  padding: 40px 3%;
 }
 
-.partners_header {
+#partner_header {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 12px;
+  padding: 0px 0% 20px 0% ;
+  align-items: center;
 }
 
 /* Footer */
