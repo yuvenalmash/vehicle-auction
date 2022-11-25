@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style2.css">
   <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-  <title>Auto Auction</title>
+  <title>Auto Auction-about</title>
 </head>
 
 <body>
@@ -19,13 +19,14 @@
         <li><a href="#">My Page</a></li>
         <li><a href="#">Logout</a></li>
       </ul>
+
       <nav class="nav">
         <a class="menu_icon" id="menu_icon" onclick="showMenu()" href="#"><img src="images/nav/humbuger_menu.png"
             alt="menu"></a>
         <a id="logo" href="index.html"><img src="images/nav/logo.png" alt="Mega Auto Auction 2022"></a>
         <ul class="menu">
-          <li><a class="nav_btn" id="nav_btn1" href="index-about.html">About</a></li>
-          <li><a href="#program_content">Program</a></li>
+          <li><a class="nav_btn" id="nav_btn1" href="index.html">Home</a></li>
+          <li><a href="index.html#program_content">Program</a></li>
           <li><a href="#">Join</a></li>
           <li><a href="#partners">Sponsor</a></li>
           <li><a href="#">News</a></li>
@@ -36,10 +37,10 @@
       <popup-menu id="popup_menu">
         <a onclick="closeMenu()" href="#"><img src="images/popup/close.png" alt="close"></a>
         <ul>
-          <li><a onclick="closeMenu()" href="index-about.html">About</a>
+          <li><a onclick="closeMenu()" href="index.html">Home</a>
             <hr>
           </li>
-          <li><a onclick="closeMenu()" href="#program_content">Program</a>
+          <li><a onclick="closeMenu()" href="index.html#program_content">Program</a>
             <hr>
           </li>
           <li><a onclick="closeMenu()" href="#">Join</a>
@@ -59,74 +60,40 @@
       </popup-menu>
     </header>
 
-    <section class="home_page" id="home_page">
-      <h3>"HELLO! AUTO WORLD"</h3>
+    <section class="headline" id="headline">
       <h1>MEGA AUTOMOBILE<br>AUCTION 2022</h1>
       <P id="event_info">This is the largest online automobile auction in East Africa.<br>Top automobile dealers based
         in Kenya,
         Uganda, Tanzania, Ethiopia, Rwanda <br>and Burundi converge to offer the best deals.</P>
-      <p id="event_date">2022.12.1(Thur) ~ 2(Fri)</p>
-      <a id="event_location" href="#">@ auto-auction-2022.com</a>
+      <p>Please contact us through email for any further questions about Mega Automobile Auction 2022</p>
+      <a id="email" href="#">autoauction2022@email.com</a>
     </section>
 
-    <section class="about_page" id="about_page">
-      <program class="program" id="program">
-        <header id="program_header">
-          <h2>Main Program</h2>
-          <hr>
-        </header>
-        <sub-section class="program_content" id="program_content">
-          <div class="content" id="content1">
-            <p class="col_1">Thursday<br>8 - 11AM</p>
-            <h3 class="col_2">
-              <img src="images/program/motorcycle.png" alt="two-wheeler">
-              <br>Two Wheeler
-            </h3>
-            <p class="col_3">Motorcycles, Scooters</p>
-          </div>
-          <div class="content" id="content2">
-            <p class="col_1">Thursday<br>1 - 4PM</p>
-            <h3 class="col_2">
-              <img src="images/program/auto_rickshaw.png" alt="three-wheeler">
-              <br>Three Wheeler
-            </h3>
-            <p class="col_3">Tuk tuk(auto rickshow), Motorized tricycles</p>
-          </div>
-          <div class="content" id="content3">
-            <p class="col_1">Friday<br>8 - 11AM</p>
-            <h3 class="col_2">
-              <img src="images/program/car.png" alt="four-wheeler">
-              <br>Four Wheeler
-            </h3>
-            <p class="col_3">Cars, Jeeps, Buses, Tractors</p>
-          </div>
-          <div class="content" id="content4">
-            <p class="col_1">Friday<br>1 - 4PM</p>
-            <h3 class="col_2">
-              <img src="images/program/truck.png" alt="six-wheeler">
-              <br>six Wheeler
-            </h3>
-            <p class="col_3">Trucks, Buses</p>
-          </div>
-          <div class="content" id="content4">
-            <p class="col_1">Friday<br>4 - 5PM</p>
-            <h3 class="col_2">
-              <img src="images/program/forum.png" alt="forum">
-              <br>Forum
-            </h3>
-            <p class="col_3">Feedback and Questions to event organisers</p>
-          </div>
-        </sub-section>
-        <a href="#">Join Auto Auction 2022</a>
-      </program>
+    <section class="about_logo">
+      <header id="about_logo_header">
+        <h2>Mega Automobile Auction 2022 Logo</h2>
+        <hr>
+      </header>
+      <p>The logo of mega automobile auction 2022 was decided through the logo competition from 8th to 31st October.</p>
+      <img src="images/about_page/about_logo/logi_big.png" alt="logo">
+    </section>
 
-      <featured class="featured" id="featured">
-        <header id="featured_header">
-          <h2>Featured Vehicles</h2>
-          <hr>
-        </header>
-        <sub-section class="featured_content" id="featured_content"></sub-section>
-      </featured>
+    <section class="past_events">
+      <header id="past_events_header">
+        <h2>See the past Mega Automobile Auctions</h2>
+        <hr>
+      </header>
+      <p>Take a look at the last two Mega Automobile Auctions</p>
+      <div>
+        <img-wrapper class="img_wrapper">
+          <img src="images/about_page/past_events/past_event_2021.png" alt="2021 event">
+          <img class="img_overlay" src="images/about_page/past_events/past_event_overlay.png" alt="overlay">
+        </img-wrapper>
+        <img-wrapper class="img_wrapper">
+          <img src="images/about_page/past_events/past_event_2020.png" alt="2020 event">
+          <img class="img_overlay" src="images/about_page/past_events/past_event_overlay.png" alt="overlay">
+        </img-wrapper>
+      </div>
     </section>
 
     <section class="partners" id="partners">
@@ -144,8 +111,9 @@
         </ul>
       </sub-section>
     </section>
+
     <footer class="footer">
-      <img src="images/footer/logo_greyscale.png" alt="logo">
+      <img src="images/about_page/footer/logo_greyscale.png" alt="logo">
       <div>
         <p>2022 Mega Automobile Auction Some Rights Reserved.</p>
         <p>The Mega Automobile Auction is committed to providing a harassment-free experience for all. See Code of
